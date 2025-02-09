@@ -1,0 +1,73 @@
+# Express TypeScript Ethers.js API
+
+A boilerplate for building Ethereum-based APIs using Express.js, TypeScript, and ethers.js.
+
+## Features
+
+- Express.js with TypeScript
+- Ethers.js integration for Ethereum blockchain interaction
+- Environment configuration
+- Development tools (ESLint, Prettier)
+- Hot reloading with Nodemon
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+\`\`\`bash
+git clone <repository-url>
+cd express-ethers-api
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Create environment file:
+\`\`\`bash
+cp .env.example .env
+\`\`\`
+
+4. Update the .env file with your configuration
+
+### Development
+
+Start the development server:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+### Building for Production
+
+Build the project:
+\`\`\`bash
+npm run build
+\`\`\`
+
+Start the production server:
+\`\`\`bash
+npm start
+\`\`\`
+
+## Project Structure
+
+\`\`\`
+src/
+├── config/         # Configuration files
+├── controllers/    # Route controllers
+├── routes/         # API routes
+├── services/       # Business logic
+├── utils/          # Utility functions
+└── index.ts        # Application entry point
+\`\`\`
+
+## License
+
+MIT
